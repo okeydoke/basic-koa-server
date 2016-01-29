@@ -1,0 +1,25 @@
+{
+  "name": "basic-koa-server",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bluebird": "^2.10.2",
+    "classnames": "^2.1.5",
+    "dotfiles": "git://github.com/okeydoke/dotfiles.git#master",
+    "koa": "^1.0.0",
+    "koa-router": "^5.2.3",
+    "koa-static": "^1.4.9",
+    "koa-swig": "^2.0.0",
+    "lodash": "^3.10.1",
+    "pm2": "^0.15.7"
+  },
+  "scripts": {
+    "test": "npm test",
+    "server": "pm2-dev run app.js"
+  },
+  "author": "Jesse Lamb",
+  "license": "ISC"
+}
